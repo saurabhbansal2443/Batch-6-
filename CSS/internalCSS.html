@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* universal Selector  */
+        *{
+            background-color: black;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        /* element selector  */
+        h1{
+            color: red;
+        }
+        p{
+            font-family: cursive;
+        }
+        /* class Selector  */
+        .green{
+            color: yellow;
+            background-color: grey;
+        }
+        /* ID selector  */
+        #ids{
+           border: 10px solid orange;
+        }
+       /* Attribute selector  */
+        [target="_blank"]{
+            text-decoration: none;
+        }
+
+        /*  combined selectors  */
+
+        
+
+        div > div {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 > I am h1 Tag </h1>
+    <h1 class="green"> green color </h1>
+    <h1 > I am h1 Tag </h1>
+    <h1 > I am h1 Tag </h1>
+    <h1 id="ids"> I am h1 Tag </h1>
+
+    <div class="green">
+        I am a div tag 
+    </div>
+
+    <p class="green"> Lorem ipsum dolor sit amet.</p>
+
+    <span> Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+<br>
+    <a href="https//www.google.com" target="_blank"> This is a link </a>
+    <div>
+        parent 
+        <div>
+            child 
+        </div>
+    </div>
+</body>
+</html>

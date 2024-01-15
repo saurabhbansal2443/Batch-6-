@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 400px;
+            height: 400px;
+            background-color: grey;
+            /* position: relative; */
+        }
+
+        .box{
+            height: 100px;
+            width: 100px;
+        }
+
+        .red{
+            background-color: red;
+            /* position: relative; */
+            /* top left right bottom */
+          
+        }
+
+        .yellow{
+            background-color: yellow;
+            position: sticky;
+                    top: 100px;
+            left: 100px;
+          
+}
+
+        .green{
+            background-color: green;
+            position: fixed;
+            left: 50%;
+           
+        }
+
+        .blue{
+             background-color: blue; 
+             /*
+            position: absolute;
+            left: 50%; */
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        
+        <div class="box blue">Absolute </div>
+        <div class="box green"> Fixed</div>
+        <div class="box yellow"> Sticky </div>
+        <div class="box red"> Relative </div>
+    </div>
+    <div style="height: 300vh; background-color:  pink; width: 300vw;"></div>
+</body>
+</html>
