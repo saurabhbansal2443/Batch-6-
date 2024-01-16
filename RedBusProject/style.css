@@ -13,7 +13,7 @@
     margin: 0 10% ;
 }
 .navbar{
-    height: 10vh;
+    height: 12vh;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -21,17 +21,22 @@
 }
 
 .logoAndOptions{
-    height: 80%;
+    height: 95%;
     width: 30%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 1px;
+    margin: 0px;
 }
 
 .accountAndLogin{
     height: 80%;
     width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.5rem;
+    color: rgb(81, 80, 80);
 }
 
 .busTicketConatiner{
@@ -59,3 +64,96 @@
     color: white;
     background-color: #d84e55;
 }
+
+.logo-blue:hover{
+   color: blue;
+}
+
+.helpContainer , .accountContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+    width: 25%;
+}
+
+/* main-region  */
+
+.main-region{
+    width: 100%;
+    height: 60vh;
+    background-image: url("./Assets/HeroImageV2_C.png");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-option-main{
+    /* border: 2px solid black; */
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.main-text{
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+.main-option{
+   height: 35%;
+   width:95%;
+   /* border: 2px solid black; */
+   display: flex;
+   margin-bottom: 5%;
+   position: relative;
+}
+.main-option-boxes{
+   height: 100%;
+   width: 25%;
+  color: rgb(62, 61, 61);
+   background-color: white;
+   display: flex;
+   align-items: center;
+   font-size: 0.7rem;
+   padding-left: 3%;
+}
+
+.first{
+   border-bottom-left-radius: 3vh; 
+   border-top-left-radius: 3vh; 
+}
+.fourth{
+    border-bottom-right-radius: 3vh; 
+    border-top-right-radius: 3vh; 
+    background-color: #d84e55;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: 900;
+ }
+
+ .second{
+    border-left: 0.8px solid #d5d2d2;
+    border-right: 0.8px solid #d5d2d2
+ }
+
+ .arrow-sign{
+    border: 1px solid rgb(136, 134, 134);
+    border-radius: 50%;
+    padding: 1px;
+    color: grey;
+    position: absolute;
+    top: 35%;
+    left: 23.5%;
+    background-color: white;
+ }
