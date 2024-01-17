@@ -1,26 +1,29 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-.border{
+.border {
     border: 2px solid red;
 }
-.pipe{
+
+.pipe {
     color: rgb(238, 237, 237);
-    margin: 0 10% ;
+    margin: 0 10%;
 }
-.navbar{
+
+.navbar {
     height: 12vh;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.logoAndOptions{
+.logoAndOptions {
     height: 95%;
     width: 30%;
     display: flex;
@@ -29,7 +32,7 @@
     margin: 0px;
 }
 
-.accountAndLogin{
+.accountAndLogin {
     height: 80%;
     width: 20%;
     display: flex;
@@ -39,7 +42,7 @@
     color: rgb(81, 80, 80);
 }
 
-.busTicketConatiner{
+.busTicketConatiner {
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
@@ -48,12 +51,12 @@
     padding: 6px;
 }
 
-.busTicketConatiner:hover{
+.busTicketConatiner:hover {
     background-color: rgb(241, 240, 240);
     border-radius: 1vh;
 }
 
-.activeBox{
+.activeBox {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,21 +68,22 @@
     background-color: #d84e55;
 }
 
-.logo-blue:hover{
-   color: blue;
+.logo-blue:hover {
+    color: blue;
 }
 
-.helpContainer , .accountContainer{
+.helpContainer,
+.accountContainer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-   
+
     width: 25%;
 }
 
 /* main-region  */
 
-.main-region{
+.main-region {
     width: 100%;
     height: 60vh;
     background-image: url("./Assets/HeroImageV2_C.png");
@@ -90,7 +94,8 @@
     justify-content: center;
     align-items: center;
 }
-.text-option-main{
+
+.text-option-main {
     /* border: 2px solid black; */
     width: 60%;
     height: 60%;
@@ -99,55 +104,56 @@
     align-items: center;
     justify-content: space-around;
 }
-.main-text{
-  color: white;
-  text-align: center;
-  font-weight: 900;
-  font-size: 1.2rem;
+
+.main-text {
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.2rem;
 }
 
-.main-option{
-   height: 35%;
-   width:95%;
-   /* border: 2px solid black; */
-   display: flex;
-   margin-bottom: 5%;
-   position: relative;
-}
-.main-option-boxes{
-   height: 100%;
-   width: 25%;
-  color: rgb(62, 61, 61);
-   background-color: white;
-   display: flex;
-   align-items: center;
-   font-size: 0.7rem;
-   padding-left: 3%;
+.main-option {
+    height: 35%;
+    width: 95%;
+    /* border: 2px solid black; */
+    display: flex;
+    margin-bottom: 5%;
+    position: relative;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.first{
-   border-bottom-left-radius: 3vh; 
-   border-top-left-radius: 3vh; 
+.main-option-boxes {
+    height: 100%;
+    width: 25%;
+    color: rgb(62, 61, 61);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    padding-left: 3%;
 }
-.fourth{
-    border-bottom-right-radius: 3vh; 
-    border-top-right-radius: 3vh; 
+
+.first {
+    border-bottom-left-radius: 3vh;
+    border-top-left-radius: 3vh;
+}
+
+.fourth {
+    border-bottom-right-radius: 3vh;
+    border-top-right-radius: 3vh;
     background-color: #d84e55;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-transform: uppercase;
     font-size: 0.7rem;
     font-weight: 900;
- }
+}
 
- .second{
+.second {
     border-left: 0.8px solid #d5d2d2;
     border-right: 0.8px solid #d5d2d2
- }
+}
 
- .arrow-sign{
+.arrow-sign {
     border: 1px solid rgb(136, 134, 134);
     border-radius: 50%;
     padding: 1px;
@@ -156,4 +162,80 @@
     top: 35%;
     left: 23.5%;
     background-color: white;
- }
+}
+
+.trending-offers{
+
+    height: 30vh;
+    background-color: white;
+    width: 55%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    position: relative;
+   left: 22.5%;
+   bottom: 6vh;
+   border-radius: 3vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
+}
+
+
+.textAndShowAllOption{
+   width: 90%;
+   height: 20%;
+
+  display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: rgb(80, 79, 79);
+}
+
+.viewAll{
+    background-color: white;
+    color: blue;
+    border-radius: 3vh;
+    border: 0.5px solid grey;
+    width: 15%;
+    height: 80%;
+}
+
+.trendingPics{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.offerImage{
+    width: 33%;
+}
+
+.refreel{
+    height: 10vh;
+    width: 58%;
+    background-image: url('./Assets/webreferal.png');
+    background-size: cover;
+    margin-left: 21%;
+}
+
+.bus-rentalSection{
+    height: 88vh;
+    width: 100%;
+    background-color: rgb(255, 253, 253);
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.busRentalText{
+  height: 95%;
+  width: 29%;
+  border: 2px solid black;
+}
+.busRentalPic{
+    height: 95%;
+    width: 29%;
+    border: 2px solid black;
+}
