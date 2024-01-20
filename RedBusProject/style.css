@@ -164,35 +164,35 @@
     background-color: white;
 }
 
-.trending-offers{
+.trending-offers {
 
     height: 30vh;
     background-color: white;
     width: 55%;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
     position: relative;
-   left: 22.5%;
-   bottom: 6vh;
-   border-radius: 3vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   
+    left: 22.5%;
+    bottom: 6vh;
+    border-radius: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 
 
-.textAndShowAllOption{
-   width: 90%;
-   height: 20%;
+.textAndShowAllOption {
+    width: 90%;
+    height: 20%;
 
-  display: flex;
-   justify-content: space-between;
-   align-items: center;
-   color: rgb(80, 79, 79);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(80, 79, 79);
 }
 
-.viewAll{
+.viewAll {
     background-color: white;
     color: blue;
     border-radius: 3vh;
@@ -201,18 +201,18 @@
     height: 80%;
 }
 
-.trendingPics{
+.trendingPics {
     width: 90%;
     height: 60%;
     display: flex;
     justify-content: space-around;
 }
 
-.offerImage{
+.offerImage {
     width: 33%;
 }
 
-.refreel{
+.refreel {
     height: 10vh;
     width: 58%;
     background-image: url('./Assets/webreferal.png');
@@ -220,22 +220,42 @@
     margin-left: 21%;
 }
 
-.bus-rentalSection{
+.bus-rentalSection {
     height: 88vh;
     width: 100%;
     background-color: rgb(255, 253, 253);
-    border: 2px solid black;
+   
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.busRentalText{
-  height: 95%;
-  width: 29%;
-  border: 2px solid black;
-}
-.busRentalPic{
+
+.busRentalText {
     height: 95%;
     width: 29%;
-    border: 2px solid black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.busRentalPic {
+    height: 95%;
+    width: 37%;
+   
+    background-image: url("./Assets/rental.jpg");
+    background-position: 10%;
+    background-size: cover;
+}
+
+.bookbtn{
+    width: 45%;
+    font-size: 0.7rem;
+    background-color: #d84e55;
+    color: white;
+    border: none;
+    border-radius: 2vh;
+    height: 6%;
+    margin-right: 20%;
 }
